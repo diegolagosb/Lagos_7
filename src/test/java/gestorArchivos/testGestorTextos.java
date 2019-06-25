@@ -41,7 +41,7 @@ public class testGestorTextos {
      */
     @Test
     public void testLeerTexto1() throws Exception {
-        String resultado = gestor.leerTexto1("C:\\Users\\Diego Lagos\\Desktop\\archivos\\test1.txt");
+        String resultado = gestor.leerTexto1(null);
         String resultadoEsperado = "el archivo se encuentra vacío";
         assertEquals(resultadoEsperado, resultado);
     }
@@ -53,7 +53,7 @@ public class testGestorTextos {
      */
     @Test
     public void testLeerTexto2() throws Exception {
-        String resultado = gestor.leerTexto2("C:\\Users\\Diego Lagos\\Desktop\\archivos\\test2.txt");
+        String resultado = gestor.leerTexto2(null);
         String resultadoEsperado = "el archivo se encuentra vacío";
         assertEquals(resultadoEsperado, resultado);
     }

@@ -95,11 +95,11 @@ public class Texto extends JFrame implements ActionListener{
         GestorTextos gestor = new GestorTextos();
         String ubicacion = ventanaInicio.getCuadro().getText();
         switch (ubicacion) {
-            case "C:\\Users\\Diego Lagos\\Desktop\\archivos\\archivo1.txt":
-                cuadro_texto.setText(gestor.leerTexto1(ubicacion));
+            case "archivo1.txt":
+                cuadro_texto.setText(gestor.leerTexto1("archivos\\"+ubicacion));
                 break;
-            case "C:\\Users\\Diego Lagos\\Desktop\\archivos\\archivo2.txt":
-                cuadro_texto.setText(gestor.leerTexto2(ubicacion));
+            case "archivo2.txt":
+                cuadro_texto.setText(gestor.leerTexto2("archivos\\"+ubicacion));
                 break;
             default:
                 JOptionPane.showMessageDialog(this, "Introduzca una ruta válida por favor.");

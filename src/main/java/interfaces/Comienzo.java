@@ -51,7 +51,7 @@ public class Comienzo extends JFrame implements ActionListener{
         contador_pulsaciones = 0;
         Font fuente = new Font("Times new Roman", 3, 20);
         cuadro_ubicacionTexto = new JTextField("Ingrese la ubicación del texto");
-        ejemplo = new JTextField("Ejemplo: C:\\Users\\Diego Lagos\\Desktop\\archivos\\archivo1.txt");
+        ejemplo = new JTextField("Ejemplo: archivo1.txt");
         boton_cargar = new JButton("Cargar texto");
         cuadro_ubicacionTexto.setBounds(100, 100, 400, 70);
         ejemplo.setBounds(25, 170, 550, 70);

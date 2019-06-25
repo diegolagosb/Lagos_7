@@ -1,4 +1,3 @@
-
 package gestorArchivos;
 
 import java.io.BufferedReader;
@@ -12,6 +11,7 @@ import java.io.IOException;
  * @author Diego Lagos
  */
 public class GestorTextos {
+
     /**
      * Lee y devuelve un texto solo con sus líneas pares.
      *
@@ -39,7 +39,8 @@ public class GestorTextos {
     }
 
     /**
-     * se encarga de leer un texto y lo retorna sin saltos de línea, si no hay nada en el archivo, retorna el mensaje indicado en el método.
+     * se encarga de leer un texto y lo retorna sin saltos de línea, si no hay
+     * nada en el archivo, retorna el mensaje indicado en el método.
      *
      * @param ubicacionTexto de tipo String.
      * @return Texto en línea recta de tipo String.
